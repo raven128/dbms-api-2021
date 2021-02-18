@@ -47,14 +47,14 @@
             // 
             this.button2.Location = new System.Drawing.Point(51, 123);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 41);
+            this.button2.Size = new System.Drawing.Size(140, 47);
             this.button2.TabIndex = 1;
             this.button2.Text = "Единицы измерения";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(50, 190);
+            this.button3.Location = new System.Drawing.Point(50, 197);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(141, 49);
             this.button3.TabIndex = 2;
@@ -80,7 +80,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Кнопочная форма";
             this.ResumeLayout(false);
 
